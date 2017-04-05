@@ -1,0 +1,804 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete 
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+ html {
+ 	background: #fff;
+ }
+
+ #nav-wrapper {
+ 	position: relative;
+ }
+
+ #menu-bar {
+ 	background: #6D6E71;
+ }
+
+ #nav-wrapper ul, #menu-bar ul {
+margin: 0;
+padding: 0;
+}
+
+#nav-wrapper ul li, #menu-bar ul li {
+float: left;
+list-style: none;
+border-right: 1px dotted #fff;
+padding: 0;
+}
+
+#nav-wrapper ul li a, #menu-bar ul li a {
+	color: #fff;
+font-size: 14px;
+font-weight: bold;
+margin: 5px auto;
+}
+
+#nav-wrapper ul li.menu-depth-1 a {
+padding: 10px;
+}
+
+#nav-wrapper ul li.menu-depth-1 > .menu-toggle > ul, #nav-wrapper ul li.menu-depth-1 > ul {
+	display: none;
+}
+
+#nav-wrapper ul > li.menu-depth-1 > a.active-trail {
+color: #EAC117;
+}
+
+
+/* ROTATOR CSS FIX FOR RESPONSIVE IMAGES */
+
+
+.bigright {
+	display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
+.two-sidebars .content-inner {
+margin-left: 0;
+}
+
+.views_slideshow_cycle_main {
+  width: 100%;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame {
+  width: 100% !important;
+  height: auto;
+}
+.views_slideshow_cycle_main .views-slideshow-cycle-main-frame-row {
+  width: 100% !important;
+  height: auto !important;
+}
+.views_slideshow_cycle_main .field-content {
+  max-width: 100%;
+  width: 100%;
+}
+.views_slideshow_cycle_main .field-content img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.view-news-rotator-v2 .views_slideshow_jcarousel_pager .jcarousel-next, .view-news-rotator-v2 .views_slideshow_jcarousel_pager .jcarousel-prev {display: none !important;}
+
+/* SIDEBAR LEFT */
+.region-sidebar-first {
+	float: right !important;
+	width: 320px !important;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#block-views-accordion-menu-v1-block {
+	background: #fff;
+}
+
+.region-sidebar-first .block, .region-sidebar-second .block {
+    border: 9px solid #EDEDED;
+    clear: both;
+    margin-bottom: 15px;
+}
+
+.region-sidebar-first .block-inner, .region-sidebar-second .block-inner {
+margin: 0;
+}
+
+#block-views-accordion-menu-v1-block h2 {display: none;}
+
+/* HEADER */
+#block-menu-menu-topbar-links ul li.first {
+background: url(../images/accessibility_graphic.png) no-repeat scroll 0 4px;
+}
+
+#block-menu-menu-topbar-links ul li.menu-item-469 {
+background: url(../images/text_only_graphic.png) no-repeat scroll 0 4px;
+}
+
+#block-menu-menu-topbar-links ul li {
+padding-left: 12px;
+}
+
+#block-menu-menu-topbar-links ul li.last {
+background: url(../images/contact_us_graphic.png) no-repeat scroll 0 4px;
+}
+
+#block-menu-menu-topbar-links ul li {
+list-style: none;
+float: left;
+padding: 0 0 0 15px;
+margin: 0 20px 0 0;
+}
+
+#block-menu-menu-topbar-links ul li a {
+color: #3A3A3B;
+font-size: 11px;
+font-weight: bold;
+}
+
+#block-menu-menu-topbar-links ul {
+padding: 0;
+margin: 0;
+float: right;
+}
+
+#nav-wrapper ul li.last{
+    
+    border-right: 0 none;
+}
+
+#header .block {
+margin-bottom: 10px;
+}
+
+#block-google-appliance-ga-block-search-form {
+width: 250px;
+clear: both;
+float: right;
+text-align: right;
+margin-right: 10px;
+}
+
+#block-google-appliance-ga-block-search-form .container-inline {
+width: 250px;
+border: 1px solid #ccc;
+overflow: hidden;
+height: 25px;
+}
+
+#block-google-appliance-ga-block-search-form .form-actions {
+margin-top: 0;
+margin-bottom: 0;
+}
+
+#block-google-appliance-ga-block-search-form .form-actions {
+float: left;
+width: 25px;
+}
+
+#block-google-appliance-ga-block-search-form .form-type-textfield {
+float: right;
+width: 215px;
+height: 25px;
+}
+
+#block-google-appliance-ga-block-search-form .form-text {
+width: 215px;
+height: 25px;
+border: 0 none;
+}
+
+#block-google-appliance-ga-block-search-form .form-submit {
+border: 0 none;
+background: url(../images/magnify_search.png) no-repeat scroll 0 5px;
+width: 25px;
+height: 25px;
+float: left;
+margin-left: 5px;
+text-indent: -9999em;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+#branding {
+width: 100px;
+float: left;
+}
+
+.region-header {
+float: right;
+width: 650px;
+margin-right: 10px;
+}
+
+
+/* ROTATOR */
+#block-views-news-rotator-v2-block-3, #block-views-news-rotator-v2-block-4 {
+background: #525257;
+/*max-width: 499px;*/
+}
+
+#block-views-news-rotator-v2-block-3 .block-inner, #block-views-news-rotator-v2-block-4 .block-inner {margin: 0;}
+
+#block-views-news-rotator-v2-block-3 .views_slideshow_jcarousel_pager, #block-views-news-rotator-v2-block-4 .views_slideshow_jcarousel_pager {
+width: 330px;
+padding: 20px 10px 0 0;
+margin: 0 auto;
+}
+
+.view-news-rotator-v2 #views_slideshow_cycle_main_news_rotator_v2-block_3, .view-news-rotator-v2 #views_slideshow_cycle_main_news_rotator_v2-block_4 {
+border-bottom: 1px dotted #fff;
+}
+
+.view-news-rotator-v2 #views_slideshow_cycle_main_news_rotator_v2-block_3 .views_slideshow_cycle_slide, .view-news-rotator-v2 #views_slideshow_cycle_main_news_rotator_v2-block_4 .views_slideshow_cycle_slide {
+  position: relative; 
+  height: 420px; 
+  width: 698px;
+}
+
+.view-news-rotator-v2 .views_slideshow_cycle_slide .views-field-field-news-rotator-caption {
+position: absolute;
+bottom: 0;
+opacity: 0.7;
+background: #000;
+height: 50px;
+width: 100%;
+}
+
+
+.view-news-rotator-v2 .views_slideshow_cycle_slide .news-rot-image-caption-text, #block-views-news-rotator-v2-block .news-rot-image-caption-text a {
+color: #fff;
+font-size: 16px;
+font-weight: bold;
+padding-left: 10px;
+padding-top: 5px;
+}
+
+.view-news-rotator-v2 #widget_pager_top_news_rotator_v2-block {
+}
+
+.view-news-rotator-v2 .views_slideshow_jcarousel_pager .views-content-field-news-rotator-caption {
+font-size: 12px;
+width: 175px;
+color: #fff;
+cursor: pointer;
+}
+
+#block-views-news-rotator-v2-block-3 .jcarousel-skin-tango .jcarousel-clip-horizontal, #block-views-news-rotator-v2-block-4 .jcarousel-skin-tango .jcarousel-clip-horizontal {
+width: 360px;
+height: 125px;
+}
+
+#block-views-news-rotator-v2-block-3 .jcarousel-skin-tango .jcarousel-item-horizontal, #block-views-news-rotator-v2-block-4 .jcarousel-skin-tango .jcarousel-item-horizontal {
+width: 175px !important;
+margin-right: 45px;
+height: 110px;
+margin-top: 10px;
+}
+
+#block-views-news-rotator-v2-block-3 ul.jcarousel-list-horizontal, #block-views-news-rotator-v2-block-4 ul.jcarousel-list-horizontal {
+min-width: 610px;
+height: 120px;
+}
+
+#block-views-news-rotator-v2-block-3 #vscc_controls_news_rotator_v2-block_3, #block-views-news-rotator-v2-block-4 #vscc_controls_news_rotator_v2-block_4 {
+width: 48px;
+float: right;
+}
+
+#block-views-news-rotator-v2-block-3 #views_slideshow_slide_counter_news_rotator_v2-block_3, #block-views-news-rotator-v2-block-4 #views_slideshow_slide_counter_news_rotator_v2-block_4 {
+float: right;
+width: 45px;
+color: #fff;
+font-size: 11px;
+line-height: 16px;
+font-weight: bold;
+margin-top: 15px;
+}
+
+.view-news-rotator-v2 .jcarousel-skin-tango {
+    border-bottom: 1px dotted #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.view-news-rotator-v2 .view-footer {
+margin-top: -25px;
+}
+
+.view-news-rotator-v2 .view-footer ul {
+margin: 0px 0 5px 0;
+padding: 0 0 0 5px;
+}
+
+.view-news-rotator-v2 .view-footer ul li {
+list-style: none;
+float: left;
+margin: 0 10px 5px 0;
+padding: 0 0 0 12px;
+}
+
+.view-news-rotator-v2 .view-footer ul li.first {
+	background: url(../images/press_room_graphic.png) no-repeat scroll 0 4px;
+}
+
+.view-news-rotator-v2 .view-footer ul li.second {
+	background: url(../images/media_room_graphic.png) no-repeat scroll 0 4px;
+	margin: 0 0px 5px 0;
+}
+
+.view-news-rotator-v2 .view-footer ul li a {
+color: #fff;
+font-size: 11px;
+font-weight: bold;
+}
+
+/* HOMEPAGE BLOCKS */
+.view-homepage-blocks {
+clear: both;
+overflow: hidden;
+}
+
+.view-homepage-blocks .views-row {
+border: 8px solid #EDEDED;
+margin-bottom: 15px;
+overflow: hidden;
+}
+
+.view-homepage-blocks .views-row h2 {
+background: none repeat scroll 0 0 #C6C8C9;
+    color: #3A3A3B;
+    font-size: 16px;
+    margin: 0 0 10px;
+padding: 3px 0 3px 10px;
+}
+
+.view-homepage-blocks .homepageblock-body {
+padding-left: 10px;
+width: 60%;
+}
+
+.view-homepage-blocks .view-display-id-attachment_1 .homepageblock-body {
+width: 96%;
+}
+
+.view-homepage-blocks .view-display-id-attachment_1 h2 {
+padding: 0;
+}
+
+.view-homepage-blocks .homepageblock-body p {
+font-size: 14px;
+color: #3A3A3B;
+}
+
+.view-homepage-blocks .homepageblock-image {
+padding-left: 10px;
+float: right;
+width: 92px;
+}
+
+/* TRIP PLANNER */
+#block-tripplanner-tripplanner {
+border: 0 none;
+margin-bottom: 0;
+}
+
+#block-views-accordion-menu-v1-block .views-row-2 .ui-widget-content {
+padding: 0;
+position: relative;
+top: -18px;
+height: 50px;
+}
+
+/* MENU DROP DOWNS */
+#nav-wrapper {
+  position: relative;
+}
+
+#nav-wrapper ul li.menu-depth-1 > .menu-toggle > ul, #nav-wrapper ul li.menu-depth-1 > ul {
+  display: block;
+  background: #525257;
+  width: 100%;
+  position: absolute;
+  /*top: 28px;*/
+  z-index: 50;
+  left: 0;
+  -webkit-box-shadow: 1px 10px 8px 0px rgba(0, 0, 0, .5);
+  box-shadow: 1px 10px 8px 0px rgba(0, 0, 0, .5);
+  padding: 10px 0;
+  border-top: 1px dotted #fff;
+}
+
+#nav-wrapper li.menu-mlid-4553 {
+  padding-top: 10px;
+}
+
+/*#nav-wrapper ul.menu li:hover ul, #menu-bar ul.menu li:hover ul{
+  display: block;
+}*/
+
+#nav-wrapper ul.menu > li:hover > a {
+  color: #EAC117;
+  text-decoration: none;
+}
+
+#nav-wrapper ul.menu ul li:hover > a {
+  color: #fff;
+}
+
+#block-menu-block-3 {
+  position: static;
+}
+
+#block-menu-block-3 ul ul li {
+  border: 0 none;
+  width: 225px;
+  padding-left: 50px;
+}
+
+#block-menu-block-3 ul ul li.menu-depth-2 > a, #block-menu-block-3 ul ul li.menu-depth-2 > a:hover {
+  color: #EAC117 !important;
+}
+
+#nav-wrapper ul.menu ul ul, #nav-wrapper ul ul li.menu-views {
+  width: 275px;
+  display: inline-block;  
+  vertical-align: top;
+  position: static;
+}
+
+#block-menu-block-3 .menutitle {
+  color: #EAC117;
+  font-size: 12px;
+font-weight: bold;
+padding: 5px 35px;
+display: block;
+}
+
+
+#block-menu-block-3 ul ul ul li {
+  float: none;
+  padding-left: 0;
+}
+
+#block-menu-block-3 ul ul ul li a {
+  white-space: normal;
+}
+
+#nav-wrapper li.menu-depth-3 a:hover {
+  text-decoration: underline;
+}
+
+#nav-wrapper .views-field-field-news-rotator-caption {
+  color: #fff;
+font-size: 12px;
+font-weight: bold;
+}
+
+.lt-ie9 .at-menu-toggle-button {display: none;}
+
+#nav-wrapper .view-news-rotator-v2 {display: none;}
+
+
+.at-mt .showmenu {display: block !important;}
+.at-mt .hidemenu {display: none !important;}
+
+/* LEFT NAV BLOCK */
+#block-menu-block-2 {
+  border: 0 none;
+}
+
+#block-menu-block-2 ul {
+  padding: 0;
+}
+
+#block-menu-block-2 ul li {
+  list-style: none;
+  border-bottom: 1px dotted #6D6E71;
+}
+
+#block-menu-block-2 ul li a {
+  color: #2577D5;
+  font-weight: bold;
+  display: block;
+  padding: 4px 0;
+}
+
+#block-menu-block-2 ul ul {
+margin: 5px 0 5px 25px;
+}
+
+#block-menu-block-2 ul ul li {
+border-bottom: 0 none;
+}
+
+#nav-wrapper ul ul li.menu-mlid-9257 {
+position: absolute;
+right: 0;
+bottom:0;
+}
+
+.node-type-page-with-ad h1, .node-type-page h1 {
+font-size: 22px;
+border-bottom: 1px dotted #000;
+width: 100%;
+}
+
+/* BODY CONTENT */
+#content .node p {
+font-size: 16px;
+line-height: 1.4em;
+}
+
+#content .node ul li {
+font-size: 16px;
+line-height: 1.4em;
+}
+
+
+#content .node h2 {
+font-size: 2em;
+line-height: 1.1em;
+}
+
+
+#content .node h3 {
+font-size: 1.5em;
+line-height: 1.3em;
+}
+
+/* GOOGLE TRANSLATE */
+.goog-te-gadget-simple {
+border: 0 none !important;
+}
+
+.goog-te-gadget img {display: none;}
+.goog-te-gadget-simple .goog-te-menu-value span {
+border: 0 none !important;
+color: #3A3A3B;
+font-size: 11px;
+font-weight: bold;
+line-height: 11px;
+position: relative;
+top: -2px;
+}
+.goog-te-gadget-simple .goog-te-menu-value:hover {text-decoration: none;}
+#block-google-translate-google-translate {
+width: 128px;
+display: inline-block;
+vertical-align: top;
+}
+
+#block-menu-menu-topbar-links {
+width: 500px;
+display: inline-block;
+vertical-align: top;
+}
+
+#block-menu-menu-topbar-links .block-inner {
+margin: 0;
+}
+
+
+#block-google-translate-google-translate .block-inner {
+margin: 0;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value span:last-child {
+color: rgb(0, 121, 193) !important;
+}
+
+/* EMERGENCY BLOCK */
+.view-emergency-block, .view-emergency-notice-banner {
+        border: 8px solid #EDEDED;
+font-size: 12px;
+}
+
+.view-emergency-block .views-field-body, .view-emergency-notice-banner .views-field-body {
+        height: 50px;
+        overflow: auto;
+        padding-left: 10px;
+}
+
+.view-emergency-block .emergencytitle, .view-homepage-blocks .emergencytitle, .view-emergency-notice-banner .emergencytitle{
+        color: #fff;
+        font-size: 14px;
+        padding: 3px 0 3px 10px;
+        margin: 0 0 10px 0;
+        font-weight: bold;
+}
+
+#block-views-emergency-notice-banner-block {clear: both;}
+
+/* SCHEDULES */
+#node-295414 table, #node-295413 table, #quicktabs-schedules_fares_tolls .block-content table {
+padding: 1px;
+border: 0 none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#node-295414 tbody tr, #node-295413 tbody tr, #quicktabs-schedules_fares_tolls tbody tr {
+border: 0 none;
+background-color: transparent;
+}
+
+#node-295414 tbody, #node-295413 tbody, #quicktabs-schedules_fares_tolls tbody {
+border-color: transparent;
+}
+
+#node-295414 button, #node-295414 input[type="reset"], #node-295414 input[type="submit"], #node-295414 input[type="button"], #node-295413 button, #node-295413 input[type="reset"], #node-295413 input[type="submit"], #node-295413 input[type="button"] {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: -moz-linear-gradient(center top , #FFFFFF 0%, #DDDDDD 100%) repeat scroll 0 0 transparent;
+    border-color: #DDDDDD #BBBBBB #999999;
+    border-image: none;
+    border-radius: 11px 11px 11px 11px;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+    cursor: pointer;
+    font: bold 12px/1.2 Arial,sans-serif;
+    outline: 0 none;
+    overflow: visible;
+    padding: 3px 10px 4px;
+    text-shadow: 0 1px 1px #FFFFFF;
+    width: auto;
+}
+
+.node ul.arrow li, .node ul.arrow li ul li, .node #sidemenu li {
+    background-image: url("../images/arrow-gn.gif");
+    background-position: left top;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    margin: 0 0 6px;
+    padding-left: 12px;
+}
+ul.arrow li {
+    background-image: url("../images/arrow-gn.gif");
+    background-position: left top;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    margin: 0 0 6px;
+    padding-left: 12px;
+}
+
+.node-type-basic-page-no-left-column- .content-inner {
+margin-left: 0 !important;
+}
+
+.node-type-basic-page-no-left-column- #page-title {
+margin-right: 200px;
+border-bottom: 1px dotted #000;
+}
+
+.node-type-basic-page-no-left-column- .bigright {
+width: 100% !important;
+}
+
+/* SCHEDULES, FARES TOLLS */
+.region-sidebar-first .block-quicktabs, .region-sidebar-first .block-quicktabs .block {
+border: 0 none;
+margin-bottom: 0;
+}
+
+#quicktabs-schedules_fares_tolls td, #quicktabs-schedules_fares_tolls p {
+font-size: 12px;
+}
+
+#block-quicktabs-schedules-fares-tolls .quicktabs-tabs {
+padding: 0;
+}
+
+#block-quicktabs-schedules-fares-tolls .quicktabs-tabs a {
+padding: 0 2px;
+font-size: 11px;
+float: left;
+cursor: pointer;
+font-family: Arial;
+font-weight: bold;
+text-align: center;
+border: 1px solid #969A99;
+text-transform: uppercase;
+color: #3A3A3B;
+margin: 0px 1px 0.5em 0px;
+}
+
+#block-quicktabs-schedules-fares-tolls .quicktabs-tabs li.active a{
+background: #D1D1D1;
+}
+
+#block-quicktabs-schedules-fares-tolls input[type="submit"], #block-quicktabs-schedules-fares-tolls input[type="button"] {
+background: #525257;
+border: 0 none;
+color: #fff;
+font-weight: bold;
+text-transform: uppercase;
+padding: 3px;
+margin-right: 5px;
+}
+
+#block-quicktabs-schedules-fares-tolls #orig_station, #block-quicktabs-schedules-fares-tolls #dest_station {
+width: 200px;
+}
+
+/* OVERRIDE FOR VISITORS TEMP PAGE */
+.page-node-295442 #page-title {display: none;}
+.page-node-295442 .region-sidebar-second {display: none;}
+.page-node-295442 .content-inner {margin-right: 0;}
+
+/* FOOTER */
+#footer-wrapper {
+background: #F3F3F2;
+border-top: 5px solid #C6C6C9;
+padding-top: 34px;
+}
+
+#footer-wrapper .container {
+	background: url(../images/mta_logo_gray.png) no-repeat scroll 50% -10px;
+	padding-top: 115px;
+	position: relative;
+	bottom: 70px;
+}
+
+#footer-wrapper .block {
+text-align: center;
+}
+
+#footer-wrapper ul {
+display: inline-block;
+vertical-align: top;
+margin: 0 55px 0 0;
+}
+
+#footer-wrapper ul:first-child {
+	width: 190px;
+}
+
+#footer-wrapper ul ul {
+display: block;
+margin: 0 0 10px 0;
+}
+
+#footer-wrapper ul > li {
+list-style: none;
+font-size: 14px;
+color: #3A3A3B;
+}
+
+#footer-wrapper ul ul > li {
+list-style: none; 
+}
+
+#footer-wrapper a {
+	color: #0060CD;
+}
+
+#footer-wrapper ul li a {
+font-size: 14px;
+}
+
+
+#footer-wrapper p {
+font-size: 12px;
+color: #3A3A3B;
+font-weight: bold;
+}
+
+/* SERVICE STATUS OVERRIDE */
+#block-servicestatus-mta-service-status ul li.tdiv {
+padding: 0 2px;
+}

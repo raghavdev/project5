@@ -1,0 +1,52 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+/* Increase the default font size on small devices */
+html {
+  font-size: 112.5%;
+  background: #525257;
+  font-family: Arial, sans-serif;
+}
+
+#logo {
+	text-align: center;
+}
+
+h2.at-menu-toggle-button {
+	text-align: right;
+}
+
+.at-menu-toggle-button-link {
+	color: #fff;
+	font-size: 14px;
+	background: url(../images/press_room_graphic.png) no-repeat scroll 0 4px;
+	padding-left: 12px;
+}
+
+#nav-wrapper ul ul {display: none;}
+#nav-wrapper ul li {
+	list-style: none;
+}
+
+#nav-wrapper ul li a {
+	color: #fff;
+	display: block;
+	border-bottom: 1px dotted #fff;
+	padding: 0 0 5px 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+#page-title {
+display:none;
+}
+
+#block-superfish-1 .block-title {
+display:none;
+}

@@ -1,0 +1,26 @@
+<?php
+/**
+* @file
+* Install for content_taxonomy.
+*/
+/**
+* Implements hook_disable().
+*/
+function content_taxonomy_disable() {
+  // Reset allowed value of parent to 0, remove depth, remove opt groups
+  $fields = field_read_fields(array( 'type' => 'taxonomy_term_reference'));
+  foreach( $fields as $field_name => $field) {
+    if( isset( $field['settings']['allowed_values'][0]['depth'] )) {
+      $field['settings']['allowed_values'][0]['parent'] = 0;
+      unset( $field['settings']['allowed_values'][0]['depth']);
+      field_update_field($field);
+      $instances = field_read_instances(array( 'field_name' => $field_name));
+      foreach( $instances as $instance) {
+        if ( isset( $instance['widget']['settings'])) {
+          unset( $instance['widget']['settings']['content_taxonomy_opt_groups']);
+          field_update_instance($instance);
+        }
+      }
+    }
+  }
+}
